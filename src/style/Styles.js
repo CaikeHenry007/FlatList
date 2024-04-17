@@ -3,31 +3,51 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1, // Preencha todo o espaço que esta vazio/sobrando
-    backgroundColor: "black", // Define a cor de fundo
+    backgroundColor: "#fff", // Define a cor de fundo
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   header: {
     height: 80, // Define a altura do HEADER
-    backgroundColor: "gray", // Define a cor de fundo
+    backgroundColor: "#888", // Define a cor de fundo
   },
 
-  box: {
-    height: 350, // Define a altura dos componentes box
-    margin: 5, // Espaçamento externo
-    width: 1000, // Define a largura dos componentes box
-    alignItems: "center", // Centraliza o que estiver dentro da BOX
-    justifyContent: "center", // Centraliza o que estiver dentro da BOX
+  caixa: {
+    width: "100%",
+    height: "100%",
+    borderRadius: 15,
+    borderColor: "#000",
+    borderWidth: 2,
+    fontSize: 20,
+    textAlign: "center",
+  },
+
+  btn: {
+    backgroundColor: "#f00",
+    width: "100%",
+    height: "100%",
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 10,
+  },
+
+  txtbtn: {
+    fontSize: 25,
+    fontStyle: "italic",
+    fontWeight: "bold",
+    color: "#000",
   },
 
   txt: {
     fontSize: 30, // Define o tamanho da fonte
     fontWeight: "bold", // Define a " largura " da fonte
-    color: "white", // Define a cor da fonte
+    color: "#000", // Define a cor da fonte
   },
 
   footer: {
     height: 100, // Define a altura do componente Footer
-    backgroundColor: "gray", // Define a cor de fundo
+    backgroundColor: "#888", // Define a cor de fundo
   },
 });
 
