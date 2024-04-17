@@ -3,11 +3,12 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1, // Preencha todo o espaço que esta vazio/sobrando
+    backgroundColor: "black", // Define a cor de fundo
   },
 
   header: {
     height: 80, // Define a altura do HEADER
-    backgroundColor: "black", // Define a cor de fundo
+    backgroundColor: "gray", // Define a cor de fundo
   },
 
   box: {
@@ -21,11 +22,12 @@ const styles = StyleSheet.create({
   txt: {
     fontSize: 30, // Define o tamanho da fonte
     fontWeight: "bold", // Define a " largura " da fonte
+    color: "white", // Define a cor da fonte
   },
 
   footer: {
     height: 100, // Define a altura do componente Footer
-    backgroundColor: "black", // Define a cor de fundo
+    backgroundColor: "gray", // Define a cor de fundo
   },
 });
 

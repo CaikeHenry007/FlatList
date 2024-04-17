@@ -3,27 +3,27 @@ import styles from "./src/style/Styles";
 
 export default function App() {
   const ligas = [
-    { id: "1", backgroundColor: "red", title: "Premier League" },
-    { id: "2", backgroundColor: "pink", title: "La Liga" },
-    { id: "3", backgroundColor: "blue", title: "Serie A" },
-    { id: "4", backgroundColor: "yellow", title: "Ligue One" },
-    { id: "5", backgroundColor: "green", title: "Bundesliga" },
+    { id: "1", backgroundColor: "darkmagenta", title: "Premier League" },
+    { id: "2", backgroundColor: "crimson", title: "La Liga" },
+    { id: "3", backgroundColor: "dodgerblue", title: "Serie A" },
+    { id: "4", backgroundColor: "darkslateblue", title: "Ligue One" },
+    { id: "5", backgroundColor: "red", title: "Bundesliga" },
   ];
 
   const times = [
-    { id: "1", backgroundColor: "red", title: "Liverpool" },
-    { id: "2", backgroundColor: "pink", title: "Real Madrid" },
-    { id: "3", backgroundColor: "blue", title: "Milan" },
-    { id: "4", backgroundColor: "yellow", title: "Paris Saint-Germain" },
-    { id: "5", backgroundColor: "green", title: "Bayern Lewerkusen" },
+    { id: "1", backgroundColor: "crimson", title: "Liverpool" },
+    { id: "2", backgroundColor: "darkviolet", title: "Real Madrid" },
+    { id: "3", backgroundColor: "darkred", title: "Milan" },
+    { id: "4", backgroundColor: "darkslateblue", title: "Paris Saint-Germain" },
+    { id: "5", backgroundColor: "crimson", title: "Bayern Leverkusen" },
   ];
 
   const jogadores = [
-    { id: "1", backgroundColor: "red", title: "Van Dijk" },
-    { id: "2", backgroundColor: "pink", title: "Bellingham" },
-    { id: "3", backgroundColor: "blue", title: "Rafael Leão" },
-    { id: "4", backgroundColor: "yellow", title: "Mbappé" },
-    { id: "5", backgroundColor: "green", title: "Witz" },
+    { id: "1", backgroundColor: "crimson", title: "Van Dijk" },
+    { id: "2", backgroundColor: "darkviolet", title: "Bellingham" },
+    { id: "3", backgroundColor: "darkred", title: "Rafael Leão" },
+    { id: "4", backgroundColor: "darkslateblue", title: "Mbappé" },
+    { id: "5", backgroundColor: "crimson", title: "Wirtz" },
   ];
 
   // Renderiza os Componentes Views(box) com seu respectivo Texto.
